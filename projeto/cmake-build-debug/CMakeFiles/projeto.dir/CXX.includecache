@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+
