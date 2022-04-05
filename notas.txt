@@ -1,0 +1,40 @@
+2 tipos de entrega: normal e expresso
+pedidos de transporte: tipo de entrega, peso, volume e valor a receber
+
+entregas normais: pedidos em maior numeroe nao precisam de ser entregues no mesmo dia, a empresa recorre à subcontrataçao de estafetas
+estafetas tem o seu proprio veiculo: matricula, volume maximo e peso maximo e o que eles cobram
+
+entregas expresso: empresa tem viaturas que fazem um pedid de cada vez independentemente do peso ou volume. está tambem associado um tempo estimado de entrega que corresponde ao tempo que leva a realizar o pedido, transportar mercadoria ate destino final e regressar ao armazem
+
+
+
+problemas combinatorios como bin packing, 0-1 knapsack, job scheduling
+
+cenario 1: otimizacao do numero de estafetas
+estafetas tao sempre disponiveis
+minimizar numero de estafetas a utilizar
+estafetas fazem uma viagem por dia so
+pedidos que nao puderem ser transportados num dia sao descartados e retornam ao fornecedor
+deve-se incluir:
+- conjunto de estafetas registados, E, com capacidade de volume ve e de peso we
+- conjunto de pediros a entregar, P, com volume vp e peso wp
+o objetivo principal é minimizar o numero de estafetas para a entrega de todos os pedidos ou do maior número de pedidos, num dia
+
+cenario 2: otimizacao do lucro da empresa
+estafetas cobram uma determinada quantia pelo número total de pedidos entregues num dia
+por cada entrega a empresa recebe uma receita
+dentre os estafetas, selecionar aqueles que para os pedidos de um determinado dia, irao maximizar o lucro da empresa naquele dia, que será a diferença entre a receita total de pedidos entregues e a despesa correspondente ao custo total a ser pago aos estafetas
+no caso de nao haver capacidade total de transporte suficiente ou das despesas serem superiores as receitas, os pedidos nao transportados no dia sao descartados e retornam ao fornecedor
+deve-se incluir:
+- conjunto de pediros a entregar, P, com volume vp e peso wp
+- conjunto de encomentas P, com volume vp, peso wp e recompensa rp
+o objetivo principal é maximizar o lucro da empresa (diferenca entre a receita total e o custo total) para a entrega de todos os pedidos ou do maior numero de pedidos, num dia
+
+cenario 3: otimizacao das entregas expresso
+para as entregas expresso a empresa utiliza uma unica viatura
+os pedidos passam a indicar um tempo estimado de entrega
+entregas expresso so podem ser entregues das 9:00 às 17:00
+para o maximo numero de pedidos de entregas expresso a empresa pretende minimzar o tempo medio dessas entregas
+deve-se incluir:
+- conjunto de pedidos expresso, P, com volume vp, peso wp e tempo estimado de entrega tp
+o objetivo principal é minimzar o tempo médio previsto das entregas expresso a serem realizados num dia
