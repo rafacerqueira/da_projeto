@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/carrinha.h
+/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/carrinha.cpp
+carrinha.h
+/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/carrinha.h
 
-/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/main.cpp
+/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/carrinha.h
+vector
+-
+iostream
+-
+
+/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/main.cpp
 iostream
 -
 fstream
@@ -18,5 +26,5 @@ string
 vector
 -
 carrinha.h
-/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/carrinha.h
+/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/carrinha.h
 

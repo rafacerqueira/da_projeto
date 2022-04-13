@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/nigga/clion-2020.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/rafael/clion-2020.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/nigga/clion-2020.1/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/rafael/clion-2020.1/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto"
+CMAKE_SOURCE_DIR = /home/rafael/2semestre/da/PROJETO1/da_projeto/projeto
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/projeto.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/projeto.dir/flags.make
 
 CMakeFiles/projeto.dir/main.cpp.o: CMakeFiles/projeto.dir/flags.make
 CMakeFiles/projeto.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/projeto.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projeto.dir/main.cpp.o -c "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/projeto.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projeto.dir/main.cpp.o -c /home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/main.cpp
 
 CMakeFiles/projeto.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projeto.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/main.cpp" > CMakeFiles/projeto.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/main.cpp > CMakeFiles/projeto.dir/main.cpp.i
 
 CMakeFiles/projeto.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projeto.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/main.cpp" -o CMakeFiles/projeto.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/main.cpp -o CMakeFiles/projeto.dir/main.cpp.s
 
 CMakeFiles/projeto.dir/carrinha.cpp.o: CMakeFiles/projeto.dir/flags.make
 CMakeFiles/projeto.dir/carrinha.cpp.o: ../carrinha.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projeto.dir/carrinha.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projeto.dir/carrinha.cpp.o -c "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/carrinha.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projeto.dir/carrinha.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/projeto.dir/carrinha.cpp.o -c /home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/carrinha.cpp
 
 CMakeFiles/projeto.dir/carrinha.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projeto.dir/carrinha.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/carrinha.cpp" > CMakeFiles/projeto.dir/carrinha.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/carrinha.cpp > CMakeFiles/projeto.dir/carrinha.cpp.i
 
 CMakeFiles/projeto.dir/carrinha.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projeto.dir/carrinha.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/carrinha.cpp" -o CMakeFiles/projeto.dir/carrinha.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/carrinha.cpp -o CMakeFiles/projeto.dir/carrinha.cpp.s
 
 # Object files for target projeto
 projeto_OBJECTS = \
@@ -95,7 +95,7 @@ projeto: CMakeFiles/projeto.dir/main.cpp.o
 projeto: CMakeFiles/projeto.dir/carrinha.cpp.o
 projeto: CMakeFiles/projeto.dir/build.make
 projeto: CMakeFiles/projeto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable projeto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable projeto"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projeto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/projeto.dir/clean:
 .PHONY : CMakeFiles/projeto.dir/clean
 
 CMakeFiles/projeto.dir/depend:
-	cd "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto" "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto" "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug" "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug" "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug/CMakeFiles/projeto.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rafael/2semestre/da/PROJETO1/da_projeto/projeto /home/rafael/2semestre/da/PROJETO1/da_projeto/projeto /home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug /home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug /home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug/CMakeFiles/projeto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/projeto.dir/depend
 

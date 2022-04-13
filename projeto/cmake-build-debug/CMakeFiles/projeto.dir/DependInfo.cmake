@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/carrinha.cpp" "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug/CMakeFiles/projeto.dir/carrinha.cpp.o"
-  "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/main.cpp" "/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug/CMakeFiles/projeto.dir/main.cpp.o"
+  "/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/carrinha.cpp" "/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug/CMakeFiles/projeto.dir/carrinha.cpp.o"
+  "/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/main.cpp" "/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/cmake-build-debug/CMakeFiles/projeto.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
