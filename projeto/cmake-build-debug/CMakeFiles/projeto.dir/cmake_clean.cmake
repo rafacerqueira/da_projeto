@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/projeto.dir/carrinha.cpp.o"
+  "CMakeFiles/projeto.dir/encomenda.cpp.o"
   "CMakeFiles/projeto.dir/main.cpp.o"
   "projeto"
   "projeto.pdb"

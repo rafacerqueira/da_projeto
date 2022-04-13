@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/projeto.dir/main.cpp.o CMakeFiles/projeto.dir/carrinha.cpp.o  -o projeto 
+/usr/bin/c++  -g   CMakeFiles/projeto.dir/main.cpp.o CMakeFiles/projeto.dir/carrinha.cpp.o CMakeFiles/projeto.dir/encomenda.cpp.o  -o projeto 

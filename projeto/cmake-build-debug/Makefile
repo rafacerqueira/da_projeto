@@ -150,6 +150,33 @@ carrinha.cpp.s:
 	$(MAKE) -f CMakeFiles/projeto.dir/build.make CMakeFiles/projeto.dir/carrinha.cpp.s
 .PHONY : carrinha.cpp.s
 
+encomenda.o: encomenda.cpp.o
+
+.PHONY : encomenda.o
+
+# target to build an object file
+encomenda.cpp.o:
+	$(MAKE) -f CMakeFiles/projeto.dir/build.make CMakeFiles/projeto.dir/encomenda.cpp.o
+.PHONY : encomenda.cpp.o
+
+encomenda.i: encomenda.cpp.i
+
+.PHONY : encomenda.i
+
+# target to preprocess a source file
+encomenda.cpp.i:
+	$(MAKE) -f CMakeFiles/projeto.dir/build.make CMakeFiles/projeto.dir/encomenda.cpp.i
+.PHONY : encomenda.cpp.i
+
+encomenda.s: encomenda.cpp.s
+
+.PHONY : encomenda.s
+
+# target to generate assembly for a file
+encomenda.cpp.s:
+	$(MAKE) -f CMakeFiles/projeto.dir/build.make CMakeFiles/projeto.dir/encomenda.cpp.s
+.PHONY : encomenda.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... carrinha.o"
 	@echo "... carrinha.i"
 	@echo "... carrinha.s"
+	@echo "... encomenda.o"
+	@echo "... encomenda.i"
+	@echo "... encomenda.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

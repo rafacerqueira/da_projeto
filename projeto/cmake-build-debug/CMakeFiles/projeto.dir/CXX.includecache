@@ -7,14 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/carrinha.cpp
-carrinha.h
-/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/carrinha.h
 
-/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/carrinha.h
-vector
--
-iostream
--
+/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/encomenda.cpp
 
 /home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/main.cpp
 iostream
@@ -25,6 +19,8 @@ string
 -
 vector
 -
-carrinha.h
-/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/carrinha.h
+carrinha.cpp
+/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/carrinha.cpp
+encomenda.cpp
+/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/encomenda.cpp
 
