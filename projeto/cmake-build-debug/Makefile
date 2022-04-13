@@ -123,6 +123,33 @@ projeto/fast:
 	$(MAKE) -f CMakeFiles/projeto.dir/build.make CMakeFiles/projeto.dir/build
 .PHONY : projeto/fast
 
+carrinha.o: carrinha.cpp.o
+
+.PHONY : carrinha.o
+
+# target to build an object file
+carrinha.cpp.o:
+	$(MAKE) -f CMakeFiles/projeto.dir/build.make CMakeFiles/projeto.dir/carrinha.cpp.o
+.PHONY : carrinha.cpp.o
+
+carrinha.i: carrinha.cpp.i
+
+.PHONY : carrinha.i
+
+# target to preprocess a source file
+carrinha.cpp.i:
+	$(MAKE) -f CMakeFiles/projeto.dir/build.make CMakeFiles/projeto.dir/carrinha.cpp.i
+.PHONY : carrinha.cpp.i
+
+carrinha.s: carrinha.cpp.s
+
+.PHONY : carrinha.s
+
+# target to generate assembly for a file
+carrinha.cpp.s:
+	$(MAKE) -f CMakeFiles/projeto.dir/build.make CMakeFiles/projeto.dir/carrinha.cpp.s
+.PHONY : carrinha.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... projeto"
+	@echo "... carrinha.o"
+	@echo "... carrinha.i"
+	@echo "... carrinha.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

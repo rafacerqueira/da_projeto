@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/carrinha.cpp">
+			<Option target="projeto"/>
+		</Unit>
+		<Unit filename="/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/carrinha.h">
+			<Option target="projeto"/>
+		</Unit>
 		<Unit filename="/home/nigga/2 semestre/da/PROJETO1/da_projeto/projeto/main.cpp">
 			<Option target="projeto"/>
 		</Unit>
