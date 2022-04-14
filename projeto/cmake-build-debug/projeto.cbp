@@ -91,6 +91,9 @@
 		<Unit filename="/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/main.cpp">
 			<Option target="projeto"/>
 		</Unit>
+		<Unit filename="/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/ocupado.cpp">
+			<Option target="projeto"/>
+		</Unit>
 		<Unit filename="/home/rafael/2semestre/da/PROJETO1/da_projeto/projeto/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

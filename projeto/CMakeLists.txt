@@ -3,4 +3,4 @@ project(projeto)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(projeto main.cpp carrinha.cpp encomenda.cpp)
+add_executable(projeto main.cpp carrinha.cpp encomenda.cpp ocupado.cpp)

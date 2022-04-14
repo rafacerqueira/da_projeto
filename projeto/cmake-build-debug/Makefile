@@ -204,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/projeto.dir/build.make CMakeFiles/projeto.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+ocupado.o: ocupado.cpp.o
+
+.PHONY : ocupado.o
+
+# target to build an object file
+ocupado.cpp.o:
+	$(MAKE) -f CMakeFiles/projeto.dir/build.make CMakeFiles/projeto.dir/ocupado.cpp.o
+.PHONY : ocupado.cpp.o
+
+ocupado.i: ocupado.cpp.i
+
+.PHONY : ocupado.i
+
+# target to preprocess a source file
+ocupado.cpp.i:
+	$(MAKE) -f CMakeFiles/projeto.dir/build.make CMakeFiles/projeto.dir/ocupado.cpp.i
+.PHONY : ocupado.cpp.i
+
+ocupado.s: ocupado.cpp.s
+
+.PHONY : ocupado.s
+
+# target to generate assembly for a file
+ocupado.cpp.s:
+	$(MAKE) -f CMakeFiles/projeto.dir/build.make CMakeFiles/projeto.dir/ocupado.cpp.s
+.PHONY : ocupado.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... ocupado.o"
+	@echo "... ocupado.i"
+	@echo "... ocupado.s"
 .PHONY : help
 
 
