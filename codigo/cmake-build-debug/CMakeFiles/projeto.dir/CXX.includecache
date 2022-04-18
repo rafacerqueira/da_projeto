@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/rafael/2semestre/da/PROJETO1/da_projeto/codigo/carrinha.cpp
+
+/home/rafael/2semestre/da/PROJETO1/da_projeto/codigo/encomenda.cpp
+
+/home/rafael/2semestre/da/PROJETO1/da_projeto/codigo/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+algorithm
+-
+climits
+-
+carrinha.cpp
+/home/rafael/2semestre/da/PROJETO1/da_projeto/codigo/carrinha.cpp
+encomenda.cpp
+/home/rafael/2semestre/da/PROJETO1/da_projeto/codigo/encomenda.cpp
+ocupado.cpp
+/home/rafael/2semestre/da/PROJETO1/da_projeto/codigo/ocupado.cpp
+
+/home/rafael/2semestre/da/PROJETO1/da_projeto/codigo/ocupado.cpp
+
